@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0px;
+    min-width: 250px;
+}
+
+body {
+    background: linear-gradient(to left, #200122, #6f0000);
+}
+
+.navigation {
+    margin: 10px auto;
+    width: 90%;
+}
+
+#conteudo-principal {
+    color: #fff;
+}
+
+.search-container {
+    float: right;
+    width: 90%;
+}
+
+.search-text, .search-button, .home-button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    border: none;    
+    padding: 10px 5px;
+    margin: 0;
+}
+
+.home-button {
+    width: 10%;
+    border-radius: 15px 0 0 15px;
+}
+
+.search-text {
+    width: 90%;
+}
+
+.search-button {
+    width: 10%;
+    border-radius: 0 15px 15px 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.presentation {
+    margin-top: 20vh;
+    color: aliceblue;
+    text-align: center;
+    font-weight: lighter;
+    /* display: none; */
+}
+
+.presentation h1 {
+    letter-spacing: 5px;
+}
+
+.presentation a {
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+}
+
+.card {
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #000;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card .container {
+    padding: 2px 5px;
+}
+
+.card .container h4 {
+    margin: 5px;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+button:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+.drink-details {
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+.drink-details img {
+    width: 100%;
+}
+
+.drink-details h3, .drink-details h4 {
+    border-bottom: 1px solid white;
+    padding: 5px;
+    letter-spacing: 3px;
+}
+
+.drink-details p {
+    margin: 0;
+}
